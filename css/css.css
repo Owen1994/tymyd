@@ -1,0 +1,611 @@
+/*------------页面头部开始--------------*/
+.banner {
+  height: 38px;
+  border-top: 1px solid #e4e7ea;
+  border-bottom: 1px solid #e4e7ea;
+}
+.banner .bx {
+  position: relative;
+}
+
+/*腾讯logo部分*/
+.banner .bx ul .logo a {
+  width: 220px;
+  height: 40px;
+  display: block;
+  background:url("../img/icos.png") no-repeat 0 -38px;
+  position: absolute;
+  left: 135px;
+  top: 0;
+  z-index: 2;
+}
+
+/*qq炫舞部分*/
+.banner .bx ul .xw {
+  position: absolute;
+  top: 0;
+  left: 355px;
+  width: 230px;
+  height: 40px;
+  z-index: 1;
+}
+.banner .bx .xwbig a {
+  display: none;
+  position: absolute;
+  left:-217px;
+  top: 0;
+}
+
+/*成长守护平台部分*/
+.banner .bx ul .grow a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  padding-left: 20px;
+  background: url("../img/grow.png") no-repeat left center;
+  position: absolute;
+  top: 0;
+  right: 250px;
+  z-index: 1;
+}
+.banner .bx ul .grow a:hover {
+  color: red;
+}
+
+/*腾讯游戏排行榜部分*/
+.banner .bx ul .txrank {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 130px;
+  font-size: 13px;
+  z-index: 1;
+}
+.banner .bx ul .txrank .rank:hover {
+  color: red;
+  cursor: pointer;
+}
+.banner .bx ul .txrank .srank {
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+/*腾讯游戏排行榜悬停出现的版块部分*/
+.banner .bx .content {
+  width: 688px;
+  height: 439px;
+  padding-left: 10px;
+  padding-top: 17px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: absolute;
+  top: 28px;
+  right: 10px;
+  display: none;
+}
+.banner .bx .content .u1 .lib1,
+.banner .bx .content .u1 .lib2{
+  padding-right:12px;
+}
+.banner .bx .content .u1 .lib2,
+.banner .bx .content .u1 .lib3{
+  padding-left:10px;
+}
+.banner .bx .content .u1 .bline {
+  width: 1px;
+  height: 420px;
+  background-color: #ccc;
+}
+.banner .bx .content .u1 li .new {
+  font: bold 15px "微软雅黑";
+}
+.banner .bx .content .u1 li .more {
+  font-size: 12px;
+  margin-left:90px;
+  color: #707e91;
+}
+.banner .bx .content .u1 li .more:hover {
+  color: red;
+}
+.banner .bx .content .u1 li .rm {
+  color: #999;
+  height: 38px;
+  line-height: 38px;
+}
+.banner .bx .content .u1 .line {
+  width: 210px;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+.banner .bx .u2 li {
+  position: relative;
+  width: 194px;
+  height: 28px;
+}
+.banner .bx .u2 li .visual {
+  color: #707e91;
+  font-size: 13px;
+  position: absolute;
+  left:25px;
+  top: 5px;
+}
+.banner .bx .u2 li .uvisual {
+  display: none;
+}
+.banner .bx .u2 .rank-ico {
+  text-align: center;
+  line-height: 12px;
+  color: white;
+  width: 14px;
+  height: 14px;
+  background-color: #ff4e00;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  font-size: 12px;
+}
+.banner .bx .u2 li a {
+  display: block;
+  border: 1px solid #ccc;
+  width: 194px;
+}
+/*-----------------页面头部结束------------------*/
+
+
+
+/*----------------主体部分开始------------------*/
+.wrapper {
+  background-color: #e5ebe9;
+}
+/*左边部分开始*/
+.wrapper .bx .left {
+  width: 156px;
+  height: 733px;
+  background-color: #3a3a3a;
+  padding: 15px;
+  margin-top: 15px;
+}
+.wrapper .bx .left .ula li {
+  position: relative;
+}
+.wrapper .bx .left .ula li a {
+  display: block;
+  font-size: 14px;
+  height: 41px;
+  line-height: 41px;
+  border-bottom: 1px solid #474747;
+  text-align: center;
+  text-indent: 35px;
+  color: #d4d4d4;
+}
+.wrapper .bx .left .ula li a:hover {
+  background-color: #383838;
+  color: #fff;
+}
+.wrapper .bx .left .ula li i {
+  position: absolute;
+  color: #cfae69;
+}
+.wrapper .bx .left .ula li .i1 {
+  font-size: 29px;
+  top: 10px;
+  left: 26px;
+}
+.wrapper .bx .left .ula li .i2 {
+  font-size: 23px;
+  top: 10px;
+  left: 28px;
+}
+.wrapper .bx .left .ula li .i3 {
+  font-size: 20px;
+  top: 8px;
+  left: 29px;
+}
+/*二维码部分*/
+.wrapper .bx .left .ewm {
+  height: 161px;
+  margin-top: 40px;
+}
+.wrapper .bx .left .ewm .dl1 {
+  margin-left: 14px;
+}
+.wrapper .bx .left .ewm .dl1 dt {
+  margin-left: 7px;
+  height: 18px;
+  color: #959595;
+}
+.wrapper .bx .left .ewm .dl1 dt span {
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+.wrapper .bx .left .ewm .dl1 dt #myd {
+  color: #ffffff;
+}
+.wrapper .bx .left .ewm .dl1 dt i {
+  display: inline-block;
+  height: 18px;
+  width: 1px;
+  background-color: #959595;
+  vertical-align: middle;
+}
+.wrapper .bx .left .ewm .dl1 dd {
+  margin-top: 12px;
+}
+.wrapper .bx .left .ewm .dl1 dd #img2 {
+  display: none;
+}
+/*合作商部分*/
+.wrapper .bx .left .partners {
+  width: 132px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+.wrapper .bx .left .partners .ulb li {
+  width: 36px;
+  height: 36px;
+  background-color: #4c4c4c;
+  border-radius: 18px;
+  float: left;
+}
+.wrapper .bx .left .partners .ulb li:hover img{
+  opacity: 1;
+  cursor: pointer;
+}
+.wrapper .bx .left .partners .ulb li img {
+  opacity: .5;
+}
+.wrapper .bx .left .partners .ulb .li1 {
+  margin-left: 12px;
+}
+.wrapper .bx .left .partners .ulb .li2 {
+  margin-top: 15px;
+}
+/*左边部分结束*/
+
+/*中间部分开始*/
+.wrapper .bx .middle {
+  width: 799px;
+  height: 763px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+/*同人版块*/
+.wrapper .bx .middle .m-t {
+  width: 799px;
+  height: 299px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper .bx .middle .m-t .leng {
+  width: 68px;
+  height: 299px;
+  background: url("../img/fanstab.jpg");
+  cursor: pointer;
+}
+.wrapper .bx .middle .m-t .trcomm {
+  width: 459px;
+  height: 299px;
+  background-color: #fff;
+  position: absolute;
+}
+.wrapper .bx .middle .m-t .trsp {
+  left: 391px;
+  top: 0;
+}
+.wrapper .bx .middle .m-t .trsp .leng {
+  background-position: 0 0;
+}
+.wrapper .bx .middle .m-t .trcos {
+  left: 459px;
+  top: 0;
+}
+.wrapper .bx .middle .m-t .trcos .leng {
+  background-position: -340px 0;
+}
+.wrapper .bx .middle .m-t .trhh {
+  left: 527px;
+  top: 0;
+}
+.wrapper .bx .middle .m-t .trhh .leng {
+  background-position: -136px 0;
+}
+.wrapper .bx .middle .m-t .trxs {
+  left: 595px;
+  top: 0;
+}
+.wrapper .bx .middle .m-t .trxs .leng {
+  background-position: -204px 0;
+}
+.wrapper .bx .middle .m-t .tryy {
+  left: 663px;
+  top: 0;
+}
+.wrapper .bx .middle .m-t .tryy .leng {
+  background-position: -68px 0;
+}
+.wrapper .bx .middle .m-t .trzb {
+  left: 731px;
+  top: 0;
+}
+.wrapper .bx .middle .m-t .trzb .leng {
+  background-position: -272px 0;
+}
+.wrapper .bx .middle .m-t .trtj {
+  width: 352px;
+  height: 291px;
+  padding-top: 8px;
+  padding-left: 20px;
+  padding-right: 19px;
+}
+.wrapper .bx .middle .m-t p {
+  height: 49px;
+}
+.wrapper .bx .middle .m-t p a {
+  color: #888;
+  font-size: 14px;
+}
+.wrapper .bx .middle .m-t p .span1 {
+  color: #2fc3a2;
+}
+.wrapper .bx .middle .m-t p a:hover {
+  color: #2fc3a2;
+}
+.wrapper .bx .middle .m-t p .as {
+  margin-left: 160px;
+}
+.wrapper .bx .middle .m-t .ulc {
+  margin-top: 7px;
+}
+.wrapper .bx .middle .m-t .ulc li {
+  height: 26px;
+}
+.wrapper .bx .middle .m-t .ulc li a {
+  display: inline-block;
+  font-size: 13px;
+  width: 310px;
+}
+.wrapper .bx .middle .m-t .ulc li:hover a {
+  color: #2fc3a2;
+}
+.wrapper .bx .middle .m-t .ulc li .time {
+  color: #b9b9b9;
+  font-size: 12px;
+}
+.wrapper .bx .middle .m-t .ulc li .time:hover {
+  cursor: pointer;
+}
+
+
+
+.wrapper .bx .middle .m-m {
+  margin-top: 15px;
+}
+.wrapper .bx .middle .m-m .mm-l,
+.wrapper .bx .middle .m-m .mm-r {
+  width: 352px;
+  height: 265px;
+  background-color: #fff;
+  padding: 17px 20px;
+  overflow: hidden;
+  position: relative;
+}
+.wrapper .bx .middle .m-m .mm-r {
+  margin-left: 15px;
+}
+.wrapper .bx .middle .m-m .uld {
+  border-bottom: 1px solid #e4eae9;
+}
+.wrapper .bx .middle .m-m .uld li {
+  float: left;
+}
+.wrapper .bx .middle .m-m .uld .mheader {
+  color: #2fc3a2;
+  font-size: 16px;
+  font-weight: bold;
+  width: 50px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+}
+.wrapper .bx .middle .m-m .uld li+li a {
+  display: block;
+  font-size: 13px;
+  width: 50px;
+  height: 41px;
+  text-align: center;
+  line-height: 41px;
+}
+.wrapper .bx .middle .m-m .uld .active {
+  border-bottom: 2px solid #ff8f17;
+}
+.wrapper .bx .middle .m-m .uld li+li a:hover {
+  color:#ff8f17;
+}
+.wrapper .bx .middle .m-m .uld .mmore {
+  float: right;
+}
+.wrapper .bx .middle .m-m .uld .mmore a {
+  font-weight: bold;
+  color: #b9c1c2;
+}
+.wrapper .bx .middle .m-m .ule {
+  width: 350px;
+}
+.wrapper .bx .middle .m-m .ule li {
+  height: 26px;
+}
+.wrapper .bx .middle .m-m .ule a {
+  display: inline-block;
+  width: 300px;
+  height: 26px;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.wrapper .bx .middle .m-m .ule li:hover a {
+  color: #05b489;
+}
+.wrapper .bx .middle .m-m .ule .etime {
+  vertical-align: top;
+  margin-left: 9px;
+  font-size: 13px;
+  color: #b1b1b1;
+  cursor: pointer;
+}
+.wrapper .bx .middle .m-m .lbtx {
+  width: 1480px;
+  height: 208px;
+  position: absolute;
+  left: 20px;
+  top: 76px;
+}
+.wrapper .bx .middle .m-m .lbtx .ule+.ule {
+  margin-left: 20px;
+}
+
+.wrapper .bx .middle .m-b {
+  margin-top: 15px;
+}
+.wrapper .bx .middle .m-b .mb-l {
+  width: 257px;
+  height: 135px;
+}
+.wrapper .bx .middle .m-b .mb-m {
+  width: 257px;
+  height: 135px;
+  margin-left: 14px;
+}
+.wrapper .bx .middle .m-b .mb-r {
+  width: 257px;
+  height: 135px;
+  margin-left: 14px;
+}
+/*中间部分结束*/
+
+/*右边部分开始*/
+.wrapper .bx .right {
+  width: 265px;
+  height: 763px;
+  margin-top: 15px;
+}
+.wrapper .bx .right .r-t .rtcomm {
+  width: 125px;
+  height: 142px;
+  background-color: #2fc3a3;
+  overflow: hidden;
+  text-align: center;
+}
+.wrapper .bx .right .r-t .rimg {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 35px;
+  top: 20px;
+  background: url("../img/icon_3.png") no-repeat;
+}
+.wrapper .bx .right .r-t .rtlt .rimg {
+  background-position: -11px -315px;
+}
+.wrapper .bx .right .r-t .rtrt .rimg {
+  background-position: -11px -538px;
+}
+.wrapper .bx .right .r-t .rtlb .rimg {
+  background-position: -9px -746px;
+}
+.wrapper .bx .right .r-t .rtrb .rimg {
+  background-position: -11px -975px;
+}
+.wrapper .bx .right .r-t .rtex {
+  width: 125px;
+  height: 142px;
+  color: white;
+  display: block;
+  position: relative;
+}
+.wrapper .bx .right .r-t .rtex .tex {
+  width: 45px;
+  height: 25px;
+  position: absolute;
+  left: 40px;
+  top:100px;
+}
+
+.wrapper .bx .right .r-t .rtrt {
+  width: 125px;
+  height: 142px;
+  background-color: #2fc3a3;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.wrapper .bx .right .r-t .rtlb {
+  width: 125px;
+  height: 142px;
+  background-color: #2fc3a3;
+  margin-right: 15px;
+}
+.wrapper .bx .right .r-t .rtrb {
+  width: 125px;
+  height: 142px;
+  background-color: #2fc3a3;
+}
+.wrapper .bx .right .r-m {
+  width: 265px;
+  height: 299px;
+  margin-top: 15px;
+}
+.wrapper .bx .right .r-b {
+  width: 265px;
+  height: 135px;
+  margin-top: 15px;
+}
+/*右边部分结束*/
+
+
+/*foot start*/
+.foot{
+  height: 160px;
+  width: 100%;
+  background-color: #202020;
+}
+.foot .bx .tencent{
+  float: left;
+  margin:40px 0 0 240px;
+  width: 280px;
+  height: 40px;
+  background:url("../images/nav-copy.png")no-repeat -1519px 0
+}
+.foot .bx .right{
+  margin-top: 20px;
+  float: left;
+  width: 580px;
+  height: 80px;
+  border-left: 1px solid #4f4f4f ;
+  padding: 2px 5px;
+
+}
+.foot .bx .right .yqlj{
+  float: left;
+}
+.foot .bx .right .yqlj li{
+  float: left;
+}
+.foot .bx .right .yqlj li.dx{
+  border:1px solid #4f4f4f;
+  height: 8px;
+  margin: 5px 3px 0;
+}
+
+
+/*foot end*/
+
+/*----------------主体部分结束------------------*/
+
+
+

@@ -1,0 +1,156 @@
+/*------------页面头部开始--------------*/
+.banner {
+  height: 38px;
+  border-top: 1px solid #e4e7ea;
+  border-bottom: 1px solid #e4e7ea;
+  /*overflow: hidden;*/
+}
+.banner .bx {
+  position: relative;
+}
+
+/*腾讯logo部分*/
+.banner .bx ul .logo a {
+  width: 220px;
+  height: 40px;
+  display: block;
+  background:url("../img/icos.png") no-repeat 0 -38px;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  z-index: 2;
+}
+
+/*qq炫舞部分*/
+.banner .bx ul .xw {
+  position: absolute;
+  top: -2px;
+  left: 220px;
+  width: 230px;
+  height: 40px;
+  z-index: 1;
+}
+.banner .bx .xwbig a {
+  display: none;
+  position: absolute;
+  left:-217px;
+  top: 0;
+}
+
+/*成长守护平台部分*/
+.banner .bx ul .grow a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  padding-left: 20px;
+  background: url("../img/grow.png") no-repeat left center;
+  position: absolute;
+  top: 0;
+  right: 120px;
+  z-index: 1;
+}
+.banner .bx ul .grow a:hover {
+  color: red;
+}
+
+/*腾讯游戏排行榜部分*/
+.banner .bx ul .txrank {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  font-size: 13px;
+  z-index: 5;
+}
+.banner .bx ul .txrank .rank:hover {
+  color: red;
+  cursor: pointer;
+}
+.banner .bx ul .txrank .srank {
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+/*腾讯游戏排行榜悬停出现的版块部分*/
+.banner .bx .content {
+  width: 688px;
+  height: 439px;
+  padding-left: 10px;
+  padding-top: 17px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: absolute;
+  top: 28px;
+  right: 10px;
+  display: none;
+}
+.banner .bx .content .u1 .lib1,
+.banner .bx .content .u1 .lib2{
+  padding-right:12px;
+}
+.banner .bx .content .u1 .lib2,
+.banner .bx .content .u1 .lib3{
+  padding-left:10px;
+}
+.banner .bx .content .u1 .bline {
+  width: 1px;
+  height: 420px;
+  background-color: #ccc;
+}
+.banner .bx .content .u1 li .new {
+  font: bold 15px "微软雅黑";
+}
+.banner .bx .content .u1 li .more {
+  font-size: 12px;
+  margin-left:90px;
+  color: #707e91;
+}
+.banner .bx .content .u1 li .more:hover {
+  color: red;
+}
+.banner .bx .content .u1 li .rm {
+  color: #999;
+  height: 38px;
+  line-height: 38px;
+}
+.banner .bx .content .u1 .line {
+  width: 210px;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+.banner .bx .u2 li {
+  position: relative;
+  width: 194px;
+  height: 28px;
+}
+.banner .bx .u2 li .visual {
+  color: #707e91;
+  font-size: 13px;
+  position: absolute;
+  left:25px;
+  top: 5px;
+}
+.banner .bx .u2 li .uvisual {
+  display: none;
+}
+.banner .bx .u2 .rank-ico {
+  text-align: center;
+  line-height: 12px;
+  color: white;
+  width: 14px;
+  height: 14px;
+  background-color: #ff4e00;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  font-size: 12px;
+}
+.banner .bx .u2 li a {
+  display: block;
+  border: 1px solid #ccc;
+  width: 194px;
+}
+/*-----------------页面头部结束------------------*/
